@@ -1,31 +1,24 @@
 package calculatorMaven;
 
 public class Calculator {
-	private double num1;
-	private double num2;
+//	private float num1;
+//	private float num2;
 //	private float result;
 
-	public Calculator(double num1, double num2) {
-		super();
-		this.num1 = num1;
-		this.num2 = num2;
-	}
-	
-	public double sum() {
+	public float sum( float num1, float num2) {
 		return num1 + num2;	
 	}
 
-
-	public double subtraction() {
-		return num1 - num2;	
+	public float subtraction( float num1, float num2) {
+		return num1 + num2;	
 	}
 
-	public double multiplication() {
-		return num1 * num2;	
+	public float multiplication( float num1, float num2) {
+		return num1 + num2;	
 	}
 
-	public double division() {
-		return num1 / num2;	
+	public float division( float num1, float num2) {
+		return num1 + num2;	
 	}
 
 }
